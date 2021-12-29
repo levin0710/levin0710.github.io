@@ -51,6 +51,16 @@ body {
 .active-nav-link a{
     color: black !important;
 }
+
+/* Foot Styles */
+.foot-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+    background-color: rgba(100, 148, 237, 0.733);
+}
+
+
 /* Portfolio Styles */
 
 .portfolio-items-wrapper {
@@ -119,8 +129,10 @@ body {
 
 .profile-content-wrapper {
     padding: 30px;
+    background-color: rgba(100, 148, 237, 0.733);
 }
 
 .profile-content-wrapper h1{
     color: royalblue;
+    font-size: 1000;
 }
