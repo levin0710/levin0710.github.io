@@ -13,6 +13,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 38px;
+    background-color:  rgb(227, 235, 252);
 }
 
 .left-side{
@@ -52,12 +53,43 @@ body {
     color: black !important;
 }
 
+.brand {
+    font-weight: bold;
+}
+
 /* Foot Styles */
-.foot-wrapper{
-    display: flex;
-    justify-content: space-between;
-    padding: 38px;
-    background-color: rgba(100, 148, 237, 0.733);
+.footer{
+    margin: 0;
+    padding: 40px;
+    background-color: rgb(227, 235, 252);
+    box-sizing: border-box ;
+    text-align: center;
+}
+
+.footer .social{
+    
+    text-align: center;
+    padding: 25px;
+    color: #8a8a8a;
+}
+
+.footer .social a{
+    font-size: 35px;
+    color: inherit;
+    border: 2px;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+
+.footer .social a:hover{
+    opacity: 1;
+    color: black;
 }
 
 
@@ -122,17 +154,20 @@ body {
     grid-template-columns: 1fr 1fr;
 }
 
-.profile-image-wrapper img {
+.profile-image img{
     width: 100%;
-    
+    padding: 20px;
 }
-
 .profile-content-wrapper {
     padding: 30px;
-    background-color: rgba(100, 148, 237, 0.733);
 }
 
 .profile-content-wrapper h1{
     color: royalblue;
-    font-size: 1000;
+    text-align: center;
+    size: 1000;
+}
+
+.profile-content-wrapper p{
+    text-align: justify;
 }
